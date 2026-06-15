@@ -35,6 +35,7 @@ Based in Sousse, Tunisia.
 | Plant Disease Detection & Segmentation | Fine-tuned YOLOv8 for detection and segmentation on PlantDoc dataset. Deployed inference API with FastAPI | YOLOv8, FastAPI, PyTorch |
 | CNN Image Classification | CNN with transfer learning and data augmentation for image classification | PyTorch, TensorFlow |
 | Retail Sales Prediction | Regression models for retail sales forecasting with feature engineering and cross-validation | Scikit-learn, Pandas |
+| [Smart Agriculture](https://github.com/medattia/Smart-Agriculture-Plant-Disease) | Plant disease detection and segmentation using YOLOv8. mAP50: 0.513, Dice Score: 0.684. Deployed with FastAPI + Streamlit | YOLOv8, FastAPI, Streamlit, PyTorch |
 
 ---
 
