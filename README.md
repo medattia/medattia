@@ -31,11 +31,9 @@ Based in Sousse, Tunisia.
 
 | Project | Description | Tech |
 |---------|-------------|------|
+| [Sentiment Analysis: BiLSTM vs BERT](https://github.com/medattia/NLP-Sentiment-Analysis-BiLSTM-vs-BERT) | Binary sentiment classification on IMDb reviews — BiLSTM from scratch vs fine-tuned BERT. F1 improved from 0.86 to 0.94 | PyTorch, HuggingFace, Gradio |
 | [NLP Machine Translation](https://github.com/medattia/NLP-Machine-Translation) | French to English translation — LSTM Seq2Seq vs Transformer (MarianMT). BLEU score improved from 0.23 to 39.38 | PyTorch, HuggingFace, Gradio |
-| Plant Disease Detection & Segmentation | Fine-tuned YOLOv8 for detection and segmentation on PlantDoc dataset. Deployed inference API with FastAPI | YOLOv8, FastAPI, PyTorch |
-| CNN Image Classification | CNN with transfer learning and data augmentation for image classification | PyTorch, TensorFlow |
-| Retail Sales Prediction | Regression models for retail sales forecasting with feature engineering and cross-validation | Scikit-learn, Pandas |
-| [Smart Agriculture](https://github.com/medattia/Smart-Agriculture-Plant-Disease) | Plant disease detection and segmentation using YOLOv8. mAP50: 0.513, Dice Score: 0.684. Deployed with FastAPI + Streamlit | YOLOv8, FastAPI, Streamlit, PyTorch |
+| [Smart Agriculture — Plant Disease Detection & Segmentation](https://github.com/medattia/Smart-Agriculture-Plant-Disease) | Fine-tuned YOLOv8 for plant disease detection and segmentation on PlantDoc dataset. mAP50: 0.513, Dice Score: 0.684. Deployed with FastAPI + Streamlit | YOLOv8, FastAPI, Streamlit, PyTorch |
 
 ---
 
