@@ -20,7 +20,7 @@ Based in Sousse, Tunisia.
 
 **Languages:** Python, R, Java, SQL  
 **Deep Learning:** PyTorch, TensorFlow/Keras, CNNs, Transfer Learning, GRU/BiGRU  
-**NLP:** Sequence modeling, Machine Translation, HuggingFace Transformers  
+**NLP:** Sequence modeling, Machine Translation, RAG, HuggingFace Transformers  
 **Computer Vision:** YOLOv8, Object Detection, Image Segmentation, TensorRT, DeepStream  
 **Databases:** SQL, MongoDB, Redis, Cassandra  
 **Tools:** Git, FastAPI, Jupyter, VS Code, RStudio, RAPIDS  
@@ -31,6 +31,7 @@ Based in Sousse, Tunisia.
 
 | Project | Description | Tech |
 |---------|-------------|------|
+| [RAG Chatbot — Document Q&A](https://github.com/medattia/rag-chatbot) | Retrieval-Augmented Generation chatbot answering questions from a PDF, built from scratch without LangChain. Diagnosed and fixed retrieval failures (reference cleaning, table-aware chunking, embedding model swap, prompt tuning). 95% retrieval recall, 100% answer accuracy on 20 questions | FAISS, sentence-transformers, Gemini API, Gradio |
 | [Sentiment Analysis: BiLSTM vs BERT](https://github.com/medattia/NLP-Sentiment-Analysis-BiLSTM-vs-BERT) | Binary sentiment classification on IMDb reviews — BiLSTM from scratch vs fine-tuned BERT. F1 improved from 0.86 to 0.94 | PyTorch, HuggingFace, Gradio |
 | [NLP Machine Translation](https://github.com/medattia/NLP-Machine-Translation) | French to English translation — LSTM Seq2Seq vs Transformer (MarianMT). BLEU score improved from 0.23 to 39.38 | PyTorch, HuggingFace, Gradio |
 | [Smart Agriculture — Plant Disease Detection & Segmentation](https://github.com/medattia/Smart-Agriculture-Plant-Disease) | Fine-tuned YOLOv8 for plant disease detection and segmentation on PlantDoc dataset. mAP50: 0.513, Dice Score: 0.684. Deployed with FastAPI + Streamlit | YOLOv8, FastAPI, Streamlit, PyTorch |
